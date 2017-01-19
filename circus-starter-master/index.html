@@ -3,20 +3,54 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title></title>
+		<title> Error Handling </title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="assets/css/main.css">
+		
+	<style media="screen">
+	    .bubble {
+	      position: absolute;
+	      background: rgba(223, 220, 255, 0.2);
+	      border: 1px solid rgba(92, 126, 236, 0.1);
+	      border-radius: 50%;
+	    }
+	    html, body {
+	      width: 100%;
+	      height: 100%;
+	      margin: 0;
+	      padding: 0;
+	    }
+	    #btn {
+	      position: absolute;
+	      top: 50%;
+	      left: 50%;
+	      transform: translate(-50%, -50%);
+	      padding: 10px 20px;
+	      background: skyblue;
+	      border: none;
+	    }
+	    p {
+	      position: absolute;
+	      top: 50%;
+	      left: 50%;
+	      transform: translate(-50%, -50%);
+	      margin: 0;
+	      font-size: 24px;
+	      font-family: sans-serif;
+	      text-shadow: 2px 2px skyblue;
+	      opacity: 0;
+	      transition: opacity 2s;
+	    }
+	  </style>
 	</head>
 	<body>
 
 		<div class="content">
-			<img class="logo" src="assets/img/logo.png">
-			<h1>Hello World!</h1>
-			<p>Yep, you've got the Circus Starter project working.</p>
-			<p>Congratulations! You're ready to code.</p>
+			<p>Welcome to Intermediate Programming</p>
+    <button type="button" name="button" id="btn">Click Me!</button>
 		</div>
 
 
